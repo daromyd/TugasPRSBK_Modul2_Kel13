@@ -3,10 +3,8 @@ import styled, {css} from 'styled-components';
 export default styled.button`
     font-size: 15px;
     float: right;
-    border: 2px solid black;
+    border: none;
     border-radius:5px;
-    margin: 0px 10px;
-    padding: 0px 5px;
     background:rgba(255, 0, 0, 0);
     ${(props) =>
         props.border && 
