@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  color: rgb(255, 251, 0);
+  text-shadow: 3px 3px 2px rgb(255, 0, 0);  
+}
+
+.User-info{
+   display: inline-block;
+   color:rgb(0, 0, 0);
+   border-radius: 20px;
+   padding:0 30px 30px;
+   margin: 0px 20px;
+   box-shadow: 10px 10px 10px grey;
+}
+
+.avatar {
+  margin: 20px ;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.Konten {
+  text-align: center;
+  background-color: #fdfdfd;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
